@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/photo_11@08-12-2021_18-27-19.jpg'
+import profile_img from '../../assets/Img.jpg'
 export default function About() {
   return (
     <div id='about' className='about'>

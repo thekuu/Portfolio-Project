@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import './Contact.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import mail_icon from '../../assets/mail_icon.svg'
@@ -47,6 +48,24 @@ const Contact = () => {
                     </div>
                     <div className="contact-detail">
                         <img src={location_icon} alt="" /> <p>Addis Ababa, Ethiopia</p>
+                    </div>
+                    <div className="social-links contact-detail">
+                        <a
+                            href="https://www.linkedin.com/in/zekaryasgeremew"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="social-link linkedin"
+                        >
+                            <FaLinkedin size={32} color="#D8D8D8" /> 
+                        </a>
+                        <a
+                            href="https://github.com/thekuu"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="social-link github"
+                        >
+                            <FaGithub size={32} color="#D8D8D8" /> 
+                        </a>
                     </div>
                 </div>
             </div>

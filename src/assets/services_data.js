@@ -2,12 +2,12 @@ const Services_Data = [
     {
         s_no:"01",
         s_name:"Web design",
-        s_desc:"The process of creating and arranging the visual elements and layout of a website to ensure it is attractive, user-friendly, and functional...."
+        s_desc:"The process of creating and arranging the visual elements and layout of a website to ensure..."
     },
     {
         s_no:"02",
         s_name:"Graphics design",
-        s_desc:"The art of combining text, images, and visual elements to communicate messages effectively and aesthetically across various media..."
+        s_desc:"The art of combining text, images, and visual elements to communicate..."
     },
     {
         s_no:"03",

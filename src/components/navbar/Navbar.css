@@ -4,6 +4,28 @@
   justify-content: space-between;
   margin: 20px 170px;  
 }
+
+.logo-container {
+  width: 100px; /* Adjust size as needed */
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white; /* Background color behind the logo */
+  border-radius: 50%; /* Makes the container circular */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); /* Soft shadow around the container */
+  padding: 10px; /* Creates a small gap */
+}
+
+.logo {
+  width: 100%; /* Make the logo fit within the container */
+  height: auto;
+  border-radius: 50%; /* Makes the logo itself circular */
+  background: linear-gradient(267deg, #DA7C25 0.36%, #8923E1 102.06%);
+  padding: 10px; /* Optional: add some padding inside the logo */
+}
+
+
 .nav-menu{
     display: flex;
     align-items: center;

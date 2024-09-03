@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/Img.jpg'
+import profile_img from '../../assets/about.jpg'
 export default function About() {
   return (
     <div id='about' className='about'>
@@ -11,12 +11,12 @@ export default function About() {
       </div>
       <div className="about-sections">
         <div className="about-left">
-            <img src={profile_img} alt="profile_img" />
+            <img src={profile_img} alt="profile_img" className='about-img'/>
         </div>
         <div className="about-right">
             <div className="about-para">
-                <p>I'm full-stack developer based in Ethiopia. my expertise spans both front-end and back-end development, including proficiency in HTML, CSS, JavaScript, React, Node.js, Python, and database management.</p>
-                <p>I find joy in the creative process of designing captivating user interfaces and the thrill of problem-solving while building robust back-end systems.</p>
+                <p>I’m a full-stack developer who enjoys designing user friendly interfaces and solving complex back-end challenges.</p>
+                <p>I focus on creating both visually appealing and technically sound web applications.</p>
             </div>
             <div className="about-skills">
                 <div className="about-skill"><p>HTML & CSS</p><hr style={{width: "50%"}}/></div>

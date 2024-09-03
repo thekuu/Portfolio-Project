@@ -21,6 +21,19 @@
     right: 0;
     z-index: -1;
 }
+.about-img {
+    width: 300px; /* Adjust to the desired size */
+    height: auto;
+    border-radius: 20px; /* Rounds the corners */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), 
+                -5px -5px 15px rgba(255, 255, 255, 0.1); /* Adds depth with shadow */
+   
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .about-img:hover {
+    transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale(1.05); /* Zooms and levels the image on hover */
+  }
 .about-sections{
     display: flex;
     gap: 80px;

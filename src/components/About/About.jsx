@@ -15,8 +15,8 @@ export default function About() {
         </div>
         <div className="about-right">
             <div className="about-para">
-                <p>I’m a full-stack developer who enjoys designing user friendly interfaces and solving complex back-end challenges.</p>
-                <p>I focus on creating both visually appealing and technically sound web applications.</p>
+                <p>I’m a full-stack developer who excels at designing user friendly interfaces and solving complex back-end challenges. I focus on creating both visually appealing and technically sound web applications.</p>
+                <p>From crafting responsive front-end designs to developing efficient back-end systems, I ensure everything works seamlessly together to create an intuitive and robust user experience.</p>
             </div>
             <div className="about-skills">
                 <div className="about-skill"><p>HTML & CSS</p><hr style={{width: "50%"}}/></div>

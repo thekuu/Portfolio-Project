@@ -12,6 +12,10 @@
     font-size: 20px;
     max-width: 400px;
 }
+.footer-top-left img {
+    height: 80px;
+    border-radius: 50%;
+}
 .footer-top-right {
     display: flex;
     align-items: center;

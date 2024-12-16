@@ -1,20 +1,27 @@
+.navbar-cont {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 140px;
+  margin: auto;
+}
 .navbar{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px 170px;  
+  margin: 20px 80px;  
 }
 
 .logo-container {
-  width: 100px; /* Adjust size as needed */
-  height: 100px;
+  width: 90px; /* Adjust size as needed */
+  height: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: white; /* Background color behind the logo */
   border-radius: 50%; /* Makes the container circular */
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); /* Soft shadow around the container */
-  padding: 10px; /* Creates a small gap */
+ 
 }
 
 .logo {
@@ -30,7 +37,7 @@
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 60px;
+    gap: 40px;
     font-size: 20px;
 }
 .nav-connect{
@@ -56,7 +63,7 @@
 }
 .anchor-link{
   text-decoration: none;
-  color: white;
+  color: black;
 }
 .nav-mob-close {
   display: none;

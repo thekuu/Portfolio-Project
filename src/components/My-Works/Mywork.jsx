@@ -11,10 +11,19 @@ export default function Mywork() {
             <img src={theme_pattern} alt="theme_pattern" />
         </div>  
         <div className="mywork-container">
-            {mywork_data.map((work,index)=>{
-                return <img key={index} src={work.w_img} alt="My Works"/>
-            })}
-        </div> 
+            {mywork_data.map((work, index) => {
+                return (
+                    <a 
+                        key={index} 
+                        href={work.link} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >
+                        <img src={work.w_img} alt="My Works" />
+                    </a>
+                );
+  })}
+</div>
         <div className="mywork-showmore">
             <p>Show More</p>
             <img src={arrow_icon} alt="" />

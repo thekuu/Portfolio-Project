@@ -11,13 +11,7 @@ const Footer = () => {
             <img src={footer_logo} alt="Footer Logo" />
             <p>I am a full-stack developer from Ethiopia with 2 years of experience at the Commercial Bank of Ethiopia.</p>
         </div>
-        <div className="footer-top-right">
-            <div className="footer-email-input">
-                <img src={user_icon} alt="User Icon" />
-                <input type="email" placeholder='Enter your email' />
-            </div>
-            <div className="footer-subscribe">Subscribe</div>
-        </div>
+        
       </div>
       <hr/>
       <div className="footer-bottom">
